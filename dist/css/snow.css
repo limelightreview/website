@@ -1,0 +1,27 @@
+#snowGlobe {
+  position:relative;
+  display:inline;
+  float:left;
+  margin-top:0;
+}
+
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Times, Georgia, serif;
+    font-size: 14em;
+    line-height: 24px;
+    position: fixed;
+    color: #688E75;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
+
+
